@@ -3,7 +3,7 @@
 
 
     <xacro:include filename="$(find owl_description)/urdf/6.5/owl.xacro"/>    
-    <xacro:include filename="$(find owl_description)/urdf/grippers/robotiq2f85/robotiq2f85.urdf.xacro"/>    
+    <!-- <xacro:include filename="$(find owl_description)/urdf/grippers/robotiq2f85/robotiq2f85.urdf.xacro"/>     -->
 
 <!-- OWL 6.5 Basic robot -->
     <xacro:owl_arm parent="world">

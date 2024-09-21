@@ -1,7 +1,7 @@
 <launch>
     <!-- Argument to select the gripper type -->
-    <arg name="gripper" default="robotiq2f85" doc="Type of gripper to use: vacuum, pneumatic, robotiq2f85"/>
-    <arg name="sim" default="on" />  <!-- Option: empty, stand,table -->
+    <arg name="gripper" default="none" doc="Type of gripper to use: vacuum, pneumatic, robotiq2f85"/>
+    <arg name="sim" default="table"/>  <!-- Option: empty, stand,table -->
 
     <group if="$(eval arg('sim') == 'on')">
 

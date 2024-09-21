@@ -522,6 +522,30 @@ message_generation_DIR:PATH=/opt/ros/noetic/share/message_generation/cmake
 message_runtime_DIR:PATH=/opt/ros/noetic/share/message_runtime/cmake
 
 //Value Computed by CMake
+owl_65_moveit_config_BINARY_DIR:STATIC=/home/vardan20/OWL_Sorting/ros_ws/build/moveit_pkgs/owl_65_moveit_config
+
+//Value Computed by CMake
+owl_65_moveit_config_SOURCE_DIR:STATIC=/home/vardan20/OWL_Sorting/ros_ws/src/moveit_pkgs/owl_65_moveit_config
+
+//Value Computed by CMake
+owl_65_pneumatic_moveit_config_BINARY_DIR:STATIC=/home/vardan20/OWL_Sorting/ros_ws/build/moveit_pkgs/owl_65_pneumatic_moveit_config
+
+//Value Computed by CMake
+owl_65_pneumatic_moveit_config_SOURCE_DIR:STATIC=/home/vardan20/OWL_Sorting/ros_ws/src/moveit_pkgs/owl_65_pneumatic_moveit_config
+
+//Value Computed by CMake
+owl_65_robotiq_2f_85_moveit_config_BINARY_DIR:STATIC=/home/vardan20/OWL_Sorting/ros_ws/build/moveit_pkgs/owl_65_robotiq_2f_85_moveit_config
+
+//Value Computed by CMake
+owl_65_robotiq_2f_85_moveit_config_SOURCE_DIR:STATIC=/home/vardan20/OWL_Sorting/ros_ws/src/moveit_pkgs/owl_65_robotiq_2f_85_moveit_config
+
+//Value Computed by CMake
+owl_65_vaccum_moveit_config_BINARY_DIR:STATIC=/home/vardan20/OWL_Sorting/ros_ws/build/moveit_pkgs/owl_65_vaccum_moveit_config
+
+//Value Computed by CMake
+owl_65_vaccum_moveit_config_SOURCE_DIR:STATIC=/home/vardan20/OWL_Sorting/ros_ws/src/moveit_pkgs/owl_65_vaccum_moveit_config
+
+//Value Computed by CMake
 owl_description_BINARY_DIR:STATIC=/home/vardan20/OWL_Sorting/ros_ws/build/owl_description
 
 //Value Computed by CMake
@@ -534,6 +558,18 @@ owl_gazebo_BINARY_DIR:STATIC=/home/vardan20/OWL_Sorting/ros_ws/build/owl_gazebo
 owl_gazebo_SOURCE_DIR:STATIC=/home/vardan20/OWL_Sorting/ros_ws/src/owl_gazebo
 
 //Value Computed by CMake
+owl_moveit_bringup_BINARY_DIR:STATIC=/home/vardan20/OWL_Sorting/ros_ws/build/moveit_pkgs/owl_moveit_bringup
+
+//Value Computed by CMake
+owl_moveit_bringup_SOURCE_DIR:STATIC=/home/vardan20/OWL_Sorting/ros_ws/src/moveit_pkgs/owl_moveit_bringup
+
+//Value Computed by CMake
+owl_perception_BINARY_DIR:STATIC=/home/vardan20/OWL_Sorting/ros_ws/build/owl_perception
+
+//Value Computed by CMake
+owl_perception_SOURCE_DIR:STATIC=/home/vardan20/OWL_Sorting/ros_ws/src/owl_perception
+
+//Value Computed by CMake
 owl_sim_BINARY_DIR:STATIC=/home/vardan20/OWL_Sorting/ros_ws/build/owl_sim
 
 //Value Computed by CMake
@@ -541,6 +577,9 @@ owl_sim_SOURCE_DIR:STATIC=/home/vardan20/OWL_Sorting/ros_ws/src/owl_sim
 
 //The directory containing a CMake configuration file for pluginlib.
 pluginlib_DIR:PATH=/opt/ros/noetic/share/pluginlib/cmake
+
+//The directory containing a CMake configuration file for realsense_gazebo_plugin.
+realsense_gazebo_plugin_DIR:PATH=realsense_gazebo_plugin_DIR-NOTFOUND
 
 //The directory containing a CMake configuration file for realtime_tools.
 realtime_tools_DIR:PATH=/opt/ros/noetic/share/realtime_tools/cmake
@@ -765,7 +804,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=10
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
