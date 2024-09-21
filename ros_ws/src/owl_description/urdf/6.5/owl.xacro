@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<robot name="owr_6.5" xmlns:xacro="http://ros.org/wiki/xacro">
-
-<!-- Macro of OWL 6.5 without any end effector -->
+<robot name="owl_6.5" xmlns:xacro="http://ros.org/wiki/xacro">
 
 <xacro:property name="base_mass" value="2.39" />
 <xacro:property name="shoulder_mass" value="4.613" />
@@ -39,7 +37,7 @@
         rpy="0 0 0" />
         <geometry>
           <mesh
-          filename="package://${package_name}/meshes/6.5/visual/owl_robot/base_link.stl" />
+          filename="package://owl_description/meshes/6.5/visual/owl_robot/base_link.stl" />
         </geometry>
         <material
         name="">
@@ -52,7 +50,7 @@
         rpy="0 0 0" />
         <geometry>
           <mesh
-          filename="package://${package_name}/meshes/6.5/collision/owl_robot/base_link.stl" />
+          filename="package://owl_description/meshes/6.5/collision/owl_robot/base_link.stl" />
         </geometry>
       </collision>
     </link>
@@ -80,7 +78,7 @@
         rpy="0 0 0" />
         <geometry>
           <mesh
-          filename="package://${package_name}/meshes/6.5/visual/owl_robot/shoulder_link.stl" />
+          filename="package://owl_description/meshes/6.5/visual/owl_robot/shoulder_link.stl" />
         </geometry>
         <material
         name="">
@@ -93,7 +91,7 @@
         rpy="0 0 0" />
         <geometry>
           <mesh
-          filename="package://${package_name}/meshes/6.5/collision/owl_robot/shoulder_link.stl" />
+          filename="package://owl_description/meshes/6.5/collision/owl_robot/shoulder_link.stl" />
         </geometry>
       </collision>
     </link>
@@ -134,7 +132,7 @@
         rpy="0 0 0" />
         <geometry>
           <mesh
-          filename="package://${package_name}/meshes/6.5/visual/owl_robot/link1.stl" />
+          filename="package://owl_description/meshes/6.5/visual/owl_robot/link1.stl" />
         </geometry>
         <material
         name="">
@@ -147,7 +145,7 @@
         rpy="0 0 0" />
         <geometry>
           <mesh
-          filename="package://${package_name}/meshes/6.5/collision/owl_robot/link1.stl" />
+          filename="package://owl_description/meshes/6.5/collision/owl_robot/link1.stl" />
         </geometry>
       </collision>
     </link>
@@ -187,7 +185,7 @@
         rpy="0 0 0" />
         <geometry>
           <mesh
-          filename="package://${package_name}/meshes/6.5/visual/owl_robot/elbow_link.stl" />
+          filename="package://owl_description/meshes/6.5/visual/owl_robot/elbow_link.stl" />
         </geometry>
         <material
         name="">
@@ -200,7 +198,7 @@
         rpy="0 0 0" />
         <geometry>
           <mesh
-          filename="package://${package_name}/meshes/6.5/collision/owl_robot/elbow_link.stl" />
+          filename="package://owl_description/meshes/6.5/collision/owl_robot/elbow_link.stl" />
         </geometry>
       </collision>
     </link>
@@ -240,7 +238,7 @@
         rpy="0 0 0" />
         <geometry>
           <mesh
-          filename="package://${package_name}/meshes/6.5/visual/owl_robot/link2.stl" />
+          filename="package://owl_description/meshes/6.5/visual/owl_robot/link2.stl" />
         </geometry>
         <material
         name="">
@@ -253,7 +251,7 @@
         rpy="0 0 0" />
         <geometry>
           <mesh
-          filename="package://${package_name}/meshes/6.5/collision/owl_robot/link2.stl" />
+          filename="package://owl_description/meshes/6.5/collision/owl_robot/link2.stl" />
         </geometry>
       </collision>
     </link>
@@ -293,7 +291,7 @@
         rpy="0 0 0" />
         <geometry>
           <mesh
-          filename="package://${package_name}/meshes/6.5/visual/owl_robot/w2w3_link.stl" />
+          filename="package://owl_description/meshes/6.5/visual/owl_robot/w2w3_link.stl" />
         </geometry>
         <material
         name="">
@@ -306,7 +304,7 @@
         rpy="0 0 0" />
         <geometry>
           <mesh
-          filename="package://${package_name}/meshes/6.5/collision/owl_robot/w2w3_link.stl" />
+          filename="package://owl_description/meshes/6.5/collision/owl_robot/w2w3_link.stl" />
         </geometry>
       </collision>
     </link>
@@ -347,7 +345,7 @@
         rpy="0 0 0" />
         <geometry>
           <mesh
-          filename="package://${package_name}/meshes/6.5/visual/owl_robot/end_effector_link.stl" />
+          filename="package://owl_description/meshes/6.5/visual/owl_robot/end_effector_link.stl" />
         </geometry>
         <material
         name="">
@@ -360,7 +358,7 @@
         rpy="0 0 0" />
         <geometry>
           <mesh
-          filename="package://${package_name}/meshes/6.5/collision/owl_robot/end_effector_link.stl" />
+          filename="package://owl_description/meshes/6.5/collision/owl_robot/end_effector_link.stl" />
         </geometry>
       </collision>
     </link>

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<launch>
+
+  <arg name="rviz" default="true"/>
+  <arg name="use_gui" default="true"/>
+
+  <!-- Corrected param tag -->
+  <param name="robot_description" command="$(find xacro)/xacro '$(find owl_robot)/urdf/robot.urdf'" />
+
+  <node if="$(arg use_gui)" pkg="joint_state_publisher_gui" type="joint_state_publisher_gui" name="joint_state_publisher_gui" output="screen">
+  </node>
+
+  <node unless="$(arg use_gui)" pkg="joint_state_publisher" type="joint_state_publisher" name="joint_state_publisher" output="screen">
+  </node>
+
+  <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher"/>
+</launch>
