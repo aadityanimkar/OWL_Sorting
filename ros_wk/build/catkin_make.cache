@@ -1,2 +1,0 @@
-owl_robot
--DCATKIN_DEVEL_PREFIX=/home/vardan20/OWL_Sorting/ros_wk/devel -DCMAKE_INSTALL_PREFIX=/home/vardan20/OWL_Sorting/ros_wk/install -G Unix Makefiles

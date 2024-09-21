@@ -1,8 +1,0 @@
-prefix=/home/vardan20/OWL_Sorting/ros_wk/devel
-
-Name: owl_robot
-Description: Description of owl_robot
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
