@@ -1,0 +1,1 @@
+/home/vardan/OWL_Sorting/ros2_ws/build/owl_moveit_config/ament_cmake_core/owl_moveit_configConfig-version.cmake
