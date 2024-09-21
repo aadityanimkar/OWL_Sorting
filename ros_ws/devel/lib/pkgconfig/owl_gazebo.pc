@@ -1,0 +1,8 @@
+prefix=/home/vardan20/OWL_Sorting/ros_ws/devel
+
+Name: owl_gazebo
+Description: Description of owl_gazebo
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

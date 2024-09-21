@@ -132,6 +132,8 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/vardan20/OWL_Sorting/ros_ws/build/gtest/cmake_install.cmake")
   include("/home/vardan20/OWL_Sorting/ros_ws/build/owl_sim/cmake_install.cmake")
+  include("/home/vardan20/OWL_Sorting/ros_ws/build/owl_description/cmake_install.cmake")
+  include("/home/vardan20/OWL_Sorting/ros_ws/build/owl_gazebo/cmake_install.cmake")
 
 endif()
 
