@@ -1,8 +1,8 @@
-# Install script for directory: /home/vardan20/OWL_Sorting/ros_ws/src/owl_gazebo
+# Install script for directory: /home/aaditya20/OWL_Sorting/ros_ws/src/owl_gazebo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/vardan20/OWL_Sorting/ros_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/aaditya20/OWL_Sorting/ros_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/vardan20/OWL_Sorting/ros_ws/build/owl_gazebo/catkin_generated/installspace/owl_gazebo.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/aaditya20/OWL_Sorting/ros_ws/build/owl_gazebo/catkin_generated/installspace/owl_gazebo.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/owl_gazebo/cmake" TYPE FILE FILES
-    "/home/vardan20/OWL_Sorting/ros_ws/build/owl_gazebo/catkin_generated/installspace/owl_gazeboConfig.cmake"
-    "/home/vardan20/OWL_Sorting/ros_ws/build/owl_gazebo/catkin_generated/installspace/owl_gazeboConfig-version.cmake"
+    "/home/aaditya20/OWL_Sorting/ros_ws/build/owl_gazebo/catkin_generated/installspace/owl_gazeboConfig.cmake"
+    "/home/aaditya20/OWL_Sorting/ros_ws/build/owl_gazebo/catkin_generated/installspace/owl_gazeboConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/owl_gazebo" TYPE FILE FILES "/home/vardan20/OWL_Sorting/ros_ws/src/owl_gazebo/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/owl_gazebo" TYPE FILE FILES "/home/aaditya20/OWL_Sorting/ros_ws/src/owl_gazebo/package.xml")
 endif()
 

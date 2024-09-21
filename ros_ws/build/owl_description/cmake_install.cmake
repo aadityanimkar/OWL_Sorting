@@ -1,8 +1,8 @@
-# Install script for directory: /home/vardan20/OWL_Sorting/ros_ws/src/owl_description
+# Install script for directory: /home/aaditya20/OWL_Sorting/ros_ws/src/owl_description
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/vardan20/OWL_Sorting/ros_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/aaditya20/OWL_Sorting/ros_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,36 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/vardan20/OWL_Sorting/ros_ws/build/owl_description/catkin_generated/installspace/owl_description.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/aaditya20/OWL_Sorting/ros_ws/build/owl_description/catkin_generated/installspace/owl_description.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/owl_description/cmake" TYPE FILE FILES
-    "/home/vardan20/OWL_Sorting/ros_ws/build/owl_description/catkin_generated/installspace/owl_descriptionConfig.cmake"
-    "/home/vardan20/OWL_Sorting/ros_ws/build/owl_description/catkin_generated/installspace/owl_descriptionConfig-version.cmake"
+    "/home/aaditya20/OWL_Sorting/ros_ws/build/owl_description/catkin_generated/installspace/owl_descriptionConfig.cmake"
+    "/home/aaditya20/OWL_Sorting/ros_ws/build/owl_description/catkin_generated/installspace/owl_descriptionConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/owl_description" TYPE FILE FILES "/home/vardan20/OWL_Sorting/ros_ws/src/owl_description/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/owl_description" TYPE FILE FILES "/home/aaditya20/OWL_Sorting/ros_ws/src/owl_description/package.xml")
 endif()
 
+<<<<<<< HEAD
+=======
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/owl_description/config" TYPE DIRECTORY FILES "/home/aaditya20/OWL_Sorting/ros_ws/src/owl_description/config/")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/owl_description/launch" TYPE DIRECTORY FILES "/home/aaditya20/OWL_Sorting/ros_ws/src/owl_description/launch/")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/owl_description/meshes" TYPE DIRECTORY FILES "/home/aaditya20/OWL_Sorting/ros_ws/src/owl_description/meshes/")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/owl_description/urdf" TYPE DIRECTORY FILES "/home/aaditya20/OWL_Sorting/ros_ws/src/owl_description/urdf/")
+endif()
+
+>>>>>>> origin/aaditya

@@ -57,10 +57,17 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD:ros2_ws/build/owl_moveit_config/Makefile
 CMAKE_SOURCE_DIR = /home/vardan/OWL_Sorting/ros2_ws/src/owl_moveit_config
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/vardan/OWL_Sorting/ros2_ws/build/owl_moveit_config
+=======
+CMAKE_SOURCE_DIR = /home/aaditya20/OWL_Sorting/ros_ws/src
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/aaditya20/OWL_Sorting/ros_ws/build
+>>>>>>> origin/aaditya:ros_ws/build/moveit_pkgs/owl_65_moveit_config/Makefile
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +149,24 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
+<<<<<<< HEAD:ros2_ws/build/owl_moveit_config/Makefile
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vardan/OWL_Sorting/ros2_ws/build/owl_moveit_config/CMakeFiles /home/vardan/OWL_Sorting/ros2_ws/build/owl_moveit_config//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vardan/OWL_Sorting/ros2_ws/build/owl_moveit_config/CMakeFiles 0
+=======
+	cd /home/aaditya20/OWL_Sorting/ros_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/aaditya20/OWL_Sorting/ros_ws/build/CMakeFiles /home/aaditya20/OWL_Sorting/ros_ws/build/moveit_pkgs/owl_65_moveit_config/CMakeFiles/progress.marks
+	cd /home/aaditya20/OWL_Sorting/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 moveit_pkgs/owl_65_moveit_config/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aaditya20/OWL_Sorting/ros_ws/build/CMakeFiles 0
+>>>>>>> origin/aaditya:ros_ws/build/moveit_pkgs/owl_65_moveit_config/Makefile
 .PHONY : all
 
 # The main clean target
 clean:
+<<<<<<< HEAD:ros2_ws/build/owl_moveit_config/Makefile
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean
+=======
+	cd /home/aaditya20/OWL_Sorting/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 moveit_pkgs/owl_65_moveit_config/clean
+>>>>>>> origin/aaditya:ros_ws/build/moveit_pkgs/owl_65_moveit_config/Makefile
 .PHONY : clean
 
 # The main clean target
@@ -158,21 +175,39 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
+<<<<<<< HEAD:ros2_ws/build/owl_moveit_config/Makefile
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+=======
+	cd /home/aaditya20/OWL_Sorting/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 moveit_pkgs/owl_65_moveit_config/preinstall
+>>>>>>> origin/aaditya:ros_ws/build/moveit_pkgs/owl_65_moveit_config/Makefile
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
+<<<<<<< HEAD:ros2_ws/build/owl_moveit_config/Makefile
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+=======
+	cd /home/aaditya20/OWL_Sorting/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 moveit_pkgs/owl_65_moveit_config/preinstall
+>>>>>>> origin/aaditya:ros_ws/build/moveit_pkgs/owl_65_moveit_config/Makefile
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
+<<<<<<< HEAD:ros2_ws/build/owl_moveit_config/Makefile
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 #=============================================================================
 # Target rules for targets named uninstall
+=======
+	cd /home/aaditya20/OWL_Sorting/ros_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+.PHONY : depend
+
+# Convenience name for target.
+moveit_pkgs/owl_65_moveit_config/CMakeFiles/_catkin_empty_exported_target.dir/rule:
+	cd /home/aaditya20/OWL_Sorting/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 moveit_pkgs/owl_65_moveit_config/CMakeFiles/_catkin_empty_exported_target.dir/rule
+.PHONY : moveit_pkgs/owl_65_moveit_config/CMakeFiles/_catkin_empty_exported_target.dir/rule
+>>>>>>> origin/aaditya:ros_ws/build/moveit_pkgs/owl_65_moveit_config/Makefile
 
 # Build rule for target.
 uninstall: cmake_check_build_system
@@ -180,6 +215,7 @@ uninstall: cmake_check_build_system
 .PHONY : uninstall
 
 # fast build rule for target.
+<<<<<<< HEAD:ros2_ws/build/owl_moveit_config/Makefile
 uninstall/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
@@ -196,6 +232,11 @@ owl_moveit_config_uninstall: cmake_check_build_system
 owl_moveit_config_uninstall/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/owl_moveit_config_uninstall.dir/build.make CMakeFiles/owl_moveit_config_uninstall.dir/build
 .PHONY : owl_moveit_config_uninstall/fast
+=======
+_catkin_empty_exported_target/fast:
+	cd /home/aaditya20/OWL_Sorting/ros_ws/build && $(MAKE) -f moveit_pkgs/owl_65_moveit_config/CMakeFiles/_catkin_empty_exported_target.dir/build.make moveit_pkgs/owl_65_moveit_config/CMakeFiles/_catkin_empty_exported_target.dir/build
+.PHONY : _catkin_empty_exported_target/fast
+>>>>>>> origin/aaditya:ros_ws/build/moveit_pkgs/owl_65_moveit_config/Makefile
 
 # Help Target
 help:
@@ -223,6 +264,10 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
+<<<<<<< HEAD:ros2_ws/build/owl_moveit_config/Makefile
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+=======
+	cd /home/aaditya20/OWL_Sorting/ros_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+>>>>>>> origin/aaditya:ros_ws/build/moveit_pkgs/owl_65_moveit_config/Makefile
 .PHONY : cmake_check_build_system
 

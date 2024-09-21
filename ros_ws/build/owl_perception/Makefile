@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vardan20/OWL_Sorting/ros_ws/src
+CMAKE_SOURCE_DIR = /home/aaditya20/OWL_Sorting/ros_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vardan20/OWL_Sorting/ros_ws/build
+CMAKE_BINARY_DIR = /home/aaditya20/OWL_Sorting/ros_ws/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,24 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
+<<<<<<< HEAD:ros_ws/build/owl_perception/Makefile
 	cd /home/vardan20/OWL_Sorting/ros_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/vardan20/OWL_Sorting/ros_ws/build/CMakeFiles /home/vardan20/OWL_Sorting/ros_ws/build/owl_perception/CMakeFiles/progress.marks
 	cd /home/vardan20/OWL_Sorting/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 owl_perception/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vardan20/OWL_Sorting/ros_ws/build/CMakeFiles 0
+=======
+	cd /home/aaditya20/OWL_Sorting/ros_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/aaditya20/OWL_Sorting/ros_ws/build/CMakeFiles /home/aaditya20/OWL_Sorting/ros_ws/build/moveit_pkgs/owl_moveit_bringup/CMakeFiles/progress.marks
+	cd /home/aaditya20/OWL_Sorting/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 moveit_pkgs/owl_moveit_bringup/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aaditya20/OWL_Sorting/ros_ws/build/CMakeFiles 0
+>>>>>>> origin/aaditya:ros_ws/build/moveit_pkgs/owl_moveit_bringup/Makefile
 .PHONY : all
 
 # The main clean target
 clean:
+<<<<<<< HEAD:ros_ws/build/owl_perception/Makefile
 	cd /home/vardan20/OWL_Sorting/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 owl_perception/clean
+=======
+	cd /home/aaditya20/OWL_Sorting/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 moveit_pkgs/owl_moveit_bringup/clean
+>>>>>>> origin/aaditya:ros_ws/build/moveit_pkgs/owl_moveit_bringup/Makefile
 .PHONY : clean
 
 # The main clean target
@@ -154,17 +164,25 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
+<<<<<<< HEAD:ros_ws/build/owl_perception/Makefile
 	cd /home/vardan20/OWL_Sorting/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 owl_perception/preinstall
+=======
+	cd /home/aaditya20/OWL_Sorting/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 moveit_pkgs/owl_moveit_bringup/preinstall
+>>>>>>> origin/aaditya:ros_ws/build/moveit_pkgs/owl_moveit_bringup/Makefile
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
+<<<<<<< HEAD:ros_ws/build/owl_perception/Makefile
 	cd /home/vardan20/OWL_Sorting/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 owl_perception/preinstall
+=======
+	cd /home/aaditya20/OWL_Sorting/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 moveit_pkgs/owl_moveit_bringup/preinstall
+>>>>>>> origin/aaditya:ros_ws/build/moveit_pkgs/owl_moveit_bringup/Makefile
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/vardan20/OWL_Sorting/ros_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/aaditya20/OWL_Sorting/ros_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -191,6 +209,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/vardan20/OWL_Sorting/ros_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/aaditya20/OWL_Sorting/ros_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

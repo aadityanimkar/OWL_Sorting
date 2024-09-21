@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 .
 -DCATKIN_DEVEL_PREFIX=/home/vardan20/OWL_Sorting/ros_ws/devel -DCMAKE_INSTALL_PREFIX=/home/vardan20/OWL_Sorting/ros_ws/install -G Unix Makefiles
+=======
+moveit_pkgs/owl_65_moveit_config:moveit_pkgs/owl_65_pneumatic_moveit_config:moveit_pkgs/owl_65_robotiq_2f_85_moveit_config:moveit_pkgs/owl_65_vaccum_moveit_config:moveit_pkgs/owl_moveit_bringup:owl_description:owl_gazebo:owl_sim
+-DCATKIN_DEVEL_PREFIX=/home/aaditya20/OWL_Sorting/ros_ws/devel -DCMAKE_INSTALL_PREFIX=/home/aaditya20/OWL_Sorting/ros_ws/install -G Unix Makefiles
+>>>>>>> origin/aaditya

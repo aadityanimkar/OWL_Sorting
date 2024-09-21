@@ -1,8 +1,8 @@
-# Install script for directory: /home/vardan20/OWL_Sorting/ros_ws/src/owl_sim
+# Install script for directory: /home/aaditya20/OWL_Sorting/ros_ws/src/owl_sim
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/vardan20/OWL_Sorting/ros_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/aaditya20/OWL_Sorting/ros_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/vardan20/OWL_Sorting/ros_ws/build/owl_sim/catkin_generated/installspace/owl_sim.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/aaditya20/OWL_Sorting/ros_ws/build/owl_sim/catkin_generated/installspace/owl_sim.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/owl_sim/cmake" TYPE FILE FILES
-    "/home/vardan20/OWL_Sorting/ros_ws/build/owl_sim/catkin_generated/installspace/owl_simConfig.cmake"
-    "/home/vardan20/OWL_Sorting/ros_ws/build/owl_sim/catkin_generated/installspace/owl_simConfig-version.cmake"
+    "/home/aaditya20/OWL_Sorting/ros_ws/build/owl_sim/catkin_generated/installspace/owl_simConfig.cmake"
+    "/home/aaditya20/OWL_Sorting/ros_ws/build/owl_sim/catkin_generated/installspace/owl_simConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/owl_sim" TYPE FILE FILES "/home/vardan20/OWL_Sorting/ros_ws/src/owl_sim/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/owl_sim" TYPE FILE FILES "/home/aaditya20/OWL_Sorting/ros_ws/src/owl_sim/package.xml")
 endif()
 

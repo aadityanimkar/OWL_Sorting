@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vardan20/OWL_Sorting/ros_ws/src
+CMAKE_SOURCE_DIR = /home/aaditya20/OWL_Sorting/ros_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vardan20/OWL_Sorting/ros_ws/build
+CMAKE_BINARY_DIR = /home/aaditya20/OWL_Sorting/ros_ws/build
 
 # Utility rule file for geometry_msgs_generate_messages_lisp.
 
@@ -63,10 +63,10 @@ owl_description/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build: geome
 .PHONY : owl_description/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
 
 owl_description/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean:
-	cd /home/vardan20/OWL_Sorting/ros_ws/build/owl_description && $(CMAKE_COMMAND) -P CMakeFiles/geometry_msgs_generate_messages_lisp.dir/cmake_clean.cmake
+	cd /home/aaditya20/OWL_Sorting/ros_ws/build/owl_description && $(CMAKE_COMMAND) -P CMakeFiles/geometry_msgs_generate_messages_lisp.dir/cmake_clean.cmake
 .PHONY : owl_description/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
 
 owl_description/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/depend:
-	cd /home/vardan20/OWL_Sorting/ros_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vardan20/OWL_Sorting/ros_ws/src /home/vardan20/OWL_Sorting/ros_ws/src/owl_description /home/vardan20/OWL_Sorting/ros_ws/build /home/vardan20/OWL_Sorting/ros_ws/build/owl_description /home/vardan20/OWL_Sorting/ros_ws/build/owl_description/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/aaditya20/OWL_Sorting/ros_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aaditya20/OWL_Sorting/ros_ws/src /home/aaditya20/OWL_Sorting/ros_ws/src/owl_description /home/aaditya20/OWL_Sorting/ros_ws/build /home/aaditya20/OWL_Sorting/ros_ws/build/owl_description /home/aaditya20/OWL_Sorting/ros_ws/build/owl_description/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : owl_description/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/depend
 
