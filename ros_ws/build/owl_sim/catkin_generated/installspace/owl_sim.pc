@@ -1,0 +1,8 @@
+prefix=/home/vardan20/OWL_Sorting/ros_ws/install
+
+Name: owl_sim
+Description: Description of owl_sim
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
