@@ -52,19 +52,3 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/owl_description" TYPE FILE FILES "/home/vardan20/OWL_Sorting/ros_ws/src/owl_description/package.xml")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/owl_description/config" TYPE DIRECTORY FILES "/home/vardan20/OWL_Sorting/ros_ws/src/owl_description/config/")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/owl_description/launch" TYPE DIRECTORY FILES "/home/vardan20/OWL_Sorting/ros_ws/src/owl_description/launch/")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/owl_description/meshes" TYPE DIRECTORY FILES "/home/vardan20/OWL_Sorting/ros_ws/src/owl_description/meshes/")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/owl_description/urdf" TYPE DIRECTORY FILES "/home/vardan20/OWL_Sorting/ros_ws/src/owl_description/urdf/")
-endif()
-

@@ -5,4 +5,4 @@ PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "owl_description"
 PROJECT_SPACE_DIR = "/home/vardan20/OWL_Sorting/ros_ws/install"
-PROJECT_VERSION = "0.0.1"
+PROJECT_VERSION = "0.0.0"
