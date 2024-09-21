@@ -1,0 +1,32 @@
+[1.086s] Invoking command in '/home/vardan/OWL_Sorting/ros2_ws/build/owl_gazebo': PYTHONPATH=/home/vardan/OWL_Sorting/ros2_ws/build/owl_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vardan/OWL_Sorting/ros2_ws/install/owl_gazebo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/vardan/OWL_Sorting/ros2_ws/build/owl_gazebo/build --no-deps symlink_data
+[1.458s] running develop
+[1.458s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.458s]   warnings.warn(
+[1.701s] running egg_info
+[1.701s] writing owl_gazebo.egg-info/PKG-INFO
+[1.702s] writing dependency_links to owl_gazebo.egg-info/dependency_links.txt
+[1.702s] writing entry points to owl_gazebo.egg-info/entry_points.txt
+[1.703s] writing requirements to owl_gazebo.egg-info/requires.txt
+[1.703s] writing top-level names to owl_gazebo.egg-info/top_level.txt
+[1.708s] reading manifest file 'owl_gazebo.egg-info/SOURCES.txt'
+[1.711s] writing manifest file 'owl_gazebo.egg-info/SOURCES.txt'
+[1.713s] running build_ext
+[1.713s] Creating /home/vardan/OWL_Sorting/ros2_ws/install/owl_gazebo/lib/python3.10/site-packages/owl-gazebo.egg-link (link to .)
+[1.715s] 
+[1.715s] Installed /home/vardan/OWL_Sorting/ros2_ws/build/owl_gazebo
+[1.715s] running symlink_data
+[1.715s] creating /home/vardan/OWL_Sorting/ros2_ws/install/owl_gazebo/share/owl_gazebo/urdf
+[1.716s] symbolically linking /home/vardan/OWL_Sorting/ros2_ws/build/owl_gazebo/urdf/sim_gazebo.xacro -> /home/vardan/OWL_Sorting/ros2_ws/install/owl_gazebo/share/owl_gazebo/urdf
+[1.716s] symbolically linking /home/vardan/OWL_Sorting/ros2_ws/build/owl_gazebo/urdf/gazebo_plugins.xacro -> /home/vardan/OWL_Sorting/ros2_ws/install/owl_gazebo/share/owl_gazebo/urdf
+[1.716s] creating /home/vardan/OWL_Sorting/ros2_ws/install/owl_gazebo/share/owl_gazebo/launch
+[1.717s] symbolically linking /home/vardan/OWL_Sorting/ros2_ws/build/owl_gazebo/launch/sim.launch.py -> /home/vardan/OWL_Sorting/ros2_ws/install/owl_gazebo/share/owl_gazebo/launch
+[1.717s] creating /home/vardan/OWL_Sorting/ros2_ws/install/owl_gazebo/share/owl_gazebo/world
+[1.717s] symbolically linking /home/vardan/OWL_Sorting/ros2_ws/build/owl_gazebo/world/empty.world -> /home/vardan/OWL_Sorting/ros2_ws/install/owl_gazebo/share/owl_gazebo/world
+[1.718s] symbolically linking /home/vardan/OWL_Sorting/ros2_ws/build/owl_gazebo/world/table.world -> /home/vardan/OWL_Sorting/ros2_ws/install/owl_gazebo/share/owl_gazebo/world
+[1.718s] creating /home/vardan/OWL_Sorting/ros2_ws/install/owl_gazebo/share/owl_gazebo/modles
+[1.718s] symbolically linking /home/vardan/OWL_Sorting/ros2_ws/build/owl_gazebo/models/model-1_2.sdf -> /home/vardan/OWL_Sorting/ros2_ws/install/owl_gazebo/share/owl_gazebo/modles
+[1.719s] symbolically linking /home/vardan/OWL_Sorting/ros2_ws/build/owl_gazebo/models/model.sdf -> /home/vardan/OWL_Sorting/ros2_ws/install/owl_gazebo/share/owl_gazebo/modles
+[1.719s] symbolically linking /home/vardan/OWL_Sorting/ros2_ws/build/owl_gazebo/models/model-1_4.sdf -> /home/vardan/OWL_Sorting/ros2_ws/install/owl_gazebo/share/owl_gazebo/modles
+[1.720s] symbolically linking /home/vardan/OWL_Sorting/ros2_ws/build/owl_gazebo/models/model-1_3.sdf -> /home/vardan/OWL_Sorting/ros2_ws/install/owl_gazebo/share/owl_gazebo/modles
+[1.720s] symbolically linking /home/vardan/OWL_Sorting/ros2_ws/build/owl_gazebo/models/model.config -> /home/vardan/OWL_Sorting/ros2_ws/install/owl_gazebo/share/owl_gazebo/modles
+[1.761s] Invoked command in '/home/vardan/OWL_Sorting/ros2_ws/build/owl_gazebo' returned '0': PYTHONPATH=/home/vardan/OWL_Sorting/ros2_ws/build/owl_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vardan/OWL_Sorting/ros2_ws/install/owl_gazebo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/vardan/OWL_Sorting/ros2_ws/build/owl_gazebo/build --no-deps symlink_data
