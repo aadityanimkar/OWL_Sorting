@@ -319,7 +319,7 @@ sensor_msgs_generate_messages_eus/fast:
 
 # Convenience name for target.
 owl_description/CMakeFiles/actionlib_generate_messages_lisp.dir/rule:
-	cd /home/vardan20/OWL_Sorting/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 owl_description/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
+	cd /home/aaditya20/OWL_Sorting/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 owl_description/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
 .PHONY : owl_description/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -329,7 +329,7 @@ actionlib_generate_messages_lisp: owl_description/CMakeFiles/actionlib_generate_
 
 # fast build rule for target.
 actionlib_generate_messages_lisp/fast:
-	cd /home/vardan20/OWL_Sorting/ros_ws/build && $(MAKE) -f owl_description/CMakeFiles/actionlib_generate_messages_lisp.dir/build.make owl_description/CMakeFiles/actionlib_generate_messages_lisp.dir/build
+	cd /home/aaditya20/OWL_Sorting/ros_ws/build && $(MAKE) -f owl_description/CMakeFiles/actionlib_generate_messages_lisp.dir/build.make owl_description/CMakeFiles/actionlib_generate_messages_lisp.dir/build
 .PHONY : actionlib_generate_messages_lisp/fast
 
 # Convenience name for target.
@@ -363,39 +363,6 @@ actionlib_generate_messages_nodejs/fast:
 .PHONY : actionlib_generate_messages_nodejs/fast
 
 # Convenience name for target.
-<<<<<<< HEAD
-owl_description/CMakeFiles/actionlib_generate_messages_lisp.dir/rule:
-	cd /home/aaditya20/OWL_Sorting/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 owl_description/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
-.PHONY : owl_description/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-actionlib_generate_messages_lisp: owl_description/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
-
-.PHONY : actionlib_generate_messages_lisp
-
-# fast build rule for target.
-actionlib_generate_messages_lisp/fast:
-	cd /home/aaditya20/OWL_Sorting/ros_ws/build && $(MAKE) -f owl_description/CMakeFiles/actionlib_generate_messages_lisp.dir/build.make owl_description/CMakeFiles/actionlib_generate_messages_lisp.dir/build
-.PHONY : actionlib_generate_messages_lisp/fast
-
-# Convenience name for target.
-owl_description/CMakeFiles/_catkin_empty_exported_target.dir/rule:
-	cd /home/aaditya20/OWL_Sorting/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 owl_description/CMakeFiles/_catkin_empty_exported_target.dir/rule
-.PHONY : owl_description/CMakeFiles/_catkin_empty_exported_target.dir/rule
-
-# Convenience name for target.
-_catkin_empty_exported_target: owl_description/CMakeFiles/_catkin_empty_exported_target.dir/rule
-
-.PHONY : _catkin_empty_exported_target
-
-# fast build rule for target.
-_catkin_empty_exported_target/fast:
-	cd /home/aaditya20/OWL_Sorting/ros_ws/build && $(MAKE) -f owl_description/CMakeFiles/_catkin_empty_exported_target.dir/build.make owl_description/CMakeFiles/_catkin_empty_exported_target.dir/build
-.PHONY : _catkin_empty_exported_target/fast
-
-# Convenience name for target.
-=======
->>>>>>> cdb8b226fe2aec60c8f9d78fe4a5416c6e4c8761
 owl_description/CMakeFiles/actionlib_generate_messages_eus.dir/rule:
 	cd /home/aaditya20/OWL_Sorting/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 owl_description/CMakeFiles/actionlib_generate_messages_eus.dir/rule
 .PHONY : owl_description/CMakeFiles/actionlib_generate_messages_eus.dir/rule

@@ -1,4 +1,4 @@
-prefix=/home/vardan20/OWL_Sorting/ros_ws/devel
+prefix=/home/aaditya20/OWL_Sorting/ros_ws/devel
 
 Name: owl_65_robotiq_2f_85_moveit_config
 Description: Description of owl_65_robotiq_2f_85_moveit_config

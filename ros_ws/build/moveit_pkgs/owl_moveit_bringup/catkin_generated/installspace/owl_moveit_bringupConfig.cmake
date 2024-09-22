@@ -67,14 +67,14 @@ set(owl_moveit_bringup_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(owl_moveit_bringup_SOURCE_PREFIX /home/vardan20/OWL_Sorting/ros_ws/src/moveit_pkgs/owl_moveit_bringup)
-  set(owl_moveit_bringup_DEVEL_PREFIX /home/vardan20/OWL_Sorting/ros_ws/devel)
+  set(owl_moveit_bringup_SOURCE_PREFIX /home/aaditya20/OWL_Sorting/ros_ws/src/moveit_pkgs/owl_moveit_bringup)
+  set(owl_moveit_bringup_DEVEL_PREFIX /home/aaditya20/OWL_Sorting/ros_ws/devel)
   set(owl_moveit_bringup_INSTALL_PREFIX "")
   set(owl_moveit_bringup_PREFIX ${owl_moveit_bringup_DEVEL_PREFIX})
 else()
   set(owl_moveit_bringup_SOURCE_PREFIX "")
   set(owl_moveit_bringup_DEVEL_PREFIX "")
-  set(owl_moveit_bringup_INSTALL_PREFIX /home/vardan20/OWL_Sorting/ros_ws/install)
+  set(owl_moveit_bringup_INSTALL_PREFIX /home/aaditya20/OWL_Sorting/ros_ws/install)
   set(owl_moveit_bringup_PREFIX ${owl_moveit_bringup_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/vardan20/OWL_Sorting/ros_ws/install/lib;/home/vardan20/OWL_Sorting/ros_ws/devel/lib;/home/vardan20/Introduction-to-Robotics/Module3/catkin_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/aaditya20/OWL_Sorting/ros_ws/install/lib;/home/aaditya20/OWL_Sorting/ros_ws/devel/lib;/home/aaditya20/Intro-to-robotics/manipulatorX/catkin_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

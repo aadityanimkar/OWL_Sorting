@@ -1,4 +1,4 @@
-prefix=/home/vardan20/OWL_Sorting/ros_ws/install
+prefix=/home/aaditya20/OWL_Sorting/ros_ws/install
 
 Name: owl_65_moveit_config
 Description: Description of owl_65_moveit_config
