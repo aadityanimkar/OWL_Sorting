@@ -48,32 +48,6 @@
 	  <xacro:simple_transmission joint_name="W3J" actuator_name="W3J_motor"/>
 
 	</xacro:macro>
-
-	<gazebo reference="base_link">
-	    <material>Gazebo/Silver</material>
-    </gazebo>
-
-	<gazebo reference="shoulder_link">
-	    <material>Gazebo/Silver</material>
-    </gazebo>
-
-	<gazebo reference="link1">
-	    <material>Gazebo/Gray</material>
-    </gazebo>
-
-	<gazebo reference="elbow_link">
-	    <material>Gazebo/Silver</material>
-    </gazebo>
-
-	<gazebo reference="link2">
-	    <material>Gazebo/Gray</material>
-    </gazebo>
-
-
-	<gazebo reference="w2w3_link">
-	    <material>Gazebo/Gray</material>
-    </gazebo>
-
 </robot>
 
 

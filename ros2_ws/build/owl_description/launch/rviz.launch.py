@@ -1,1 +1,1 @@
-/home/aaditya/OWL_Sorting/ros2_ws/src/owl_description/launch/rviz.launch.py
+/home/vardan/OWL_Sorting/ros2_ws/src/owl_description/launch/rviz.launch.py
