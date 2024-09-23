@@ -17,7 +17,7 @@ def generate_launch_description():
     use_sim_time = LaunchConfiguration('use_sim_time')
 
     pkg_path = get_package_share_directory('owl_description')
-    xacro_file = os.path.join(pkg_path, 'urdf', 'robot.urdf')
+    xacro_file = os.path.join(pkg_path, 'urdf', 'robot.xacro')
     if not os.path.exists(xacro_file):
         raise FileNotFoundError(f"Xacro file not found: {xacro_file}")
 

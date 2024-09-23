@@ -36,8 +36,9 @@ def generate_launch_description():
         executable='joint_state_publisher_gui',
         output='screen'
     )
+    custom_world_path = os.path.join(pkg_path, 'world', 'table.world')
     gazebo_launcher = ExecuteProcess(
-            cmd=['gazebo', '--verbose',
+            cmd=['gazebo', '--verbose',custom_world_path,
                  '-s', 'libgazebo_ros_factory.so'],
             output='screen')
     
@@ -46,7 +47,11 @@ def generate_launch_description():
         executable='spawn_entity.py',
         name='gripper',
         output='screen',
-        arguments=['-topic','/robot_description','-entity', 'gripper']
+        arguments=['-topic', '/robot_description',
+                   '-entity', 'gripper',
+                   '-x', '-0.4',   
+                    '-y', '0.0',
+                    '-z', '1.07']
     )
 
     return LaunchDescription([

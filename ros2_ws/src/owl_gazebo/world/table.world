@@ -14,7 +14,7 @@
     <include>
       <uri>model://table</uri>
     </include>
-    <include>
+    <!-- <include>
       <uri>model://red_block</uri>
     </include>
     <include>
@@ -25,6 +25,6 @@
     </include>
     <include>
       <uri>model://yellow_block</uri>
-    </include>
+    </include> -->
   </world>
 </sdf>
