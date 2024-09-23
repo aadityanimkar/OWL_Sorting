@@ -1,2 +1,0 @@
-owl_description
-setuptools
