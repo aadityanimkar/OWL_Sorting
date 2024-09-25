@@ -1,0 +1,25 @@
+[1.963s] Invoking command in '/home/vardan/OWL_Sorting/ros2_ws/build/owl_cv': PYTHONPATH=/home/vardan/OWL_Sorting/ros2_ws/build/owl_cv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vardan/OWL_Sorting/ros2_ws/install/owl_cv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/vardan/OWL_Sorting/ros2_ws/build/owl_cv/build --no-deps symlink_data
+[2.474s] running develop
+[2.475s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.475s]   warnings.warn(
+[2.757s] running egg_info
+[2.757s] creating owl_cv.egg-info
+[2.757s] writing owl_cv.egg-info/PKG-INFO
+[2.758s] writing dependency_links to owl_cv.egg-info/dependency_links.txt
+[2.758s] writing entry points to owl_cv.egg-info/entry_points.txt
+[2.758s] writing requirements to owl_cv.egg-info/requires.txt
+[2.759s] writing top-level names to owl_cv.egg-info/top_level.txt
+[2.759s] writing manifest file 'owl_cv.egg-info/SOURCES.txt'
+[2.761s] reading manifest file 'owl_cv.egg-info/SOURCES.txt'
+[2.762s] writing manifest file 'owl_cv.egg-info/SOURCES.txt'
+[2.766s] running build_ext
+[2.766s] Creating /home/vardan/OWL_Sorting/ros2_ws/install/owl_cv/lib/python3.10/site-packages/owl-cv.egg-link (link to .)
+[2.768s] 
+[2.768s] Installed /home/vardan/OWL_Sorting/ros2_ws/build/owl_cv
+[2.769s] running symlink_data
+[2.769s] creating /home/vardan/OWL_Sorting/ros2_ws/install/owl_cv/share/ament_index
+[2.769s] creating /home/vardan/OWL_Sorting/ros2_ws/install/owl_cv/share/ament_index/resource_index
+[2.769s] creating /home/vardan/OWL_Sorting/ros2_ws/install/owl_cv/share/ament_index/resource_index/packages
+[2.769s] symbolically linking /home/vardan/OWL_Sorting/ros2_ws/build/owl_cv/resource/owl_cv -> /home/vardan/OWL_Sorting/ros2_ws/install/owl_cv/share/ament_index/resource_index/packages
+[2.770s] symbolically linking /home/vardan/OWL_Sorting/ros2_ws/build/owl_cv/package.xml -> /home/vardan/OWL_Sorting/ros2_ws/install/owl_cv/share/owl_cv
+[2.839s] Invoked command in '/home/vardan/OWL_Sorting/ros2_ws/build/owl_cv' returned '0': PYTHONPATH=/home/vardan/OWL_Sorting/ros2_ws/build/owl_cv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vardan/OWL_Sorting/ros2_ws/install/owl_cv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/vardan/OWL_Sorting/ros2_ws/build/owl_cv/build --no-deps symlink_data

@@ -1,0 +1,12 @@
+package.xml
+setup.cfg
+setup.py
+owl_cv/__init__.py
+owl_cv.egg-info/PKG-INFO
+owl_cv.egg-info/SOURCES.txt
+owl_cv.egg-info/dependency_links.txt
+owl_cv.egg-info/entry_points.txt
+owl_cv.egg-info/requires.txt
+owl_cv.egg-info/top_level.txt
+owl_cv.egg-info/zip-safe
+resource/owl_cv
