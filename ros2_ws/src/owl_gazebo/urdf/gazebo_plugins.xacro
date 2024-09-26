@@ -50,7 +50,7 @@
                     <alwaysOn>true</alwaysOn>
                     <updateRate>0.0</updateRate>
                     <cameraName>owr_6.5/camera</cameraName>
-                    <imageTopicName>image_raw</imageTopicName>
+                    <imageTopicName>owr_6_5/camera/image_processed</imageTopicName>
                     <cameraInfoTopicName>camera_info</cameraInfoTopicName>
                     <frameName>camera_link</frameName>
                     <hackBaseline>0.07</hackBaseline>
