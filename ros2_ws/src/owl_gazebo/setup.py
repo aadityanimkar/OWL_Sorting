@@ -17,10 +17,11 @@ setup(
          glob('launch/*.launch.py')),
         (os.path.join('share', package_name, 'world'),
          glob('world/*.world')),
-        (os.path.join('share', package_name, 'models'),
-         glob('models/*.sdf')),
-        (os.path.join('share', package_name, 'models'),
-         glob('models/*.config')),
+        # (os.path.join('share', package_name, 'models'),
+        #  glob('models/*.sdf')),
+        # (os.path.join('share', package_name, 'models'),
+        #  glob('models/*.config')),
+         
     ],
     install_requires=['setuptools', 'owl_description'],
     zip_safe=True,
@@ -31,6 +32,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'object_detection_node = owl_gazebo.object_detection:main',
         ],
     },
 )

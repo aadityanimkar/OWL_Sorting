@@ -55,9 +55,9 @@ def generate_launch_description():
     )
     
     image_processing_node = Node(
-        package='owl_cv',
-        executable='image_processing_node',
-        name='image_processing_node',
+        package='owl_gazebo',
+        executable='object_detection_node',
+        name='object_detection',
         output='screen'
     )
 
