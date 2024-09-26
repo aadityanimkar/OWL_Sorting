@@ -1,1 +1,0 @@
-/home/vardan/OWL_Sorting/ros2_ws/src/owl_cv/setup.py
