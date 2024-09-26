@@ -14,29 +14,40 @@ class ObjectDetectionNode(Node):
             self.image_callback,
             30
         )
-        self.publisher = self.create_publisher(Image, '/camera/image_raw', 30)
+        self.publisher = self.create_publisher(Image, '/image_processed', 30)
         self.cv_bridge = CvBridge()
-        # Load the Haar cascade classifier for object detection
-        self.cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 
     def image_callback(self, msg):
         cv_image = self.cv_bridge.imgmsg_to_cv2(msg, 'bgr8')
         self.detect_and_draw_objects(cv_image)
 
     def detect_and_draw_objects(self, cv_image):
-        # Convert the image to grayscale
-        gray = cv2.cvtColor(cv_image, cv2.COLOR_BGR2GRAY)
+        # Flip the image vertically
+        cv_image = cv2.flip(cv_image, 0)
 
-        # Detect objects using the Haar cascade classifier
-        bounding_boxes = self.cascade.detectMultiScale(gray, scaleFactor=1.1, minNeighbors=5, minSize=(30, 30))
+        hsv_image = cv2.cvtColor(cv_image, cv2.COLOR_BGR2HSV)
 
-        # Draw bounding boxes on the image
-        for (x, y, w, h) in bounding_boxes:
+        lower_red = np.array([0, 120, 70])
+        upper_red = np.array([10, 255, 255])
+        lower_red2 = np.array([170, 120, 70])
+        upper_red2 = np.array([180, 255, 255])
+
+        mask1 = cv2.inRange(hsv_image, lower_red, upper_red)
+        mask2 = cv2.inRange(hsv_image, lower_red2, upper_red2)
+        mask = mask1 + mask2
+
+        # Find contours in the mask
+        contours, _ = cv2.findContours(mask, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+
+        # Draw bounding boxes around detected objects
+        for contour in contours:
+            x, y, w, h = cv2.boundingRect(contour)
+            # Draw the bounding box
             cv2.rectangle(cv_image, (x, y), (x + w, y + h), (0, 255, 0), 2)
-
-        # Convert the processed image back to ROS Image message
         processed_image_msg = self.cv_bridge.cv2_to_imgmsg(cv_image, 'bgr8')
         self.publisher.publish(processed_image_msg)
+        cv2.imshow("Video Frame", cv_image)
+        cv2.waitKey(1)
 
 def main(args=None):
     rclpy.init(args=args)

@@ -33,6 +33,7 @@ setup(
     entry_points={
         'console_scripts': [
             'object_detection_node = owl_gazebo.object_detection:main',
+            'distance_calculation_node = owl_gazebo.distance_calc:main',
         ],
     },
 )

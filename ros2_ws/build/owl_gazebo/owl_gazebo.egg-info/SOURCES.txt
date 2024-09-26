@@ -8,6 +8,7 @@ models/model-1_4.sdf
 models/model.config
 models/model.sdf
 owl_gazebo/__init__.py
+owl_gazebo/distance_calc.py
 owl_gazebo/object_detection.py
 owl_gazebo.egg-info/PKG-INFO
 owl_gazebo.egg-info/SOURCES.txt
