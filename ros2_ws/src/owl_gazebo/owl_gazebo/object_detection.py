@@ -10,11 +10,11 @@ class ObjectDetectionNode(Node):
         super().__init__('object_detection_node')
         self.subscription = self.create_subscription(
             Image,
-            'owr_6_5/camera/image_processed',
+            '/camera/image_raw',
             self.image_callback,
             30
         )
-        self.publisher = self.create_publisher(Image, 'owr_6_5/camera/image_processed', 10)
+        self.publisher = self.create_publisher(Image, '/camera/image_raw', 30)
         self.cv_bridge = CvBridge()
         # Load the Haar cascade classifier for object detection
         self.cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
@@ -36,13 +36,10 @@ class ObjectDetectionNode(Node):
 
         # Convert the processed image back to ROS Image message
         processed_image_msg = self.cv_bridge.cv2_to_imgmsg(cv_image, 'bgr8')
-
-        # Publish the processed image
         self.publisher.publish(processed_image_msg)
 
-        # Display the image with bounding boxes (optional for local visualization)
-        cv2.imshow('Object Detection', cv_image)
-        cv2.waitKey(1)
+        # cv2.imshow('Object Detection', cv_image)
+        # cv2.waitKey(1)
 
 def main(args=None):
     rclpy.init(args=args)
