@@ -38,9 +38,6 @@ class ObjectDetectionNode(Node):
         processed_image_msg = self.cv_bridge.cv2_to_imgmsg(cv_image, 'bgr8')
         self.publisher.publish(processed_image_msg)
 
-        # cv2.imshow('Object Detection', cv_image)
-        # cv2.waitKey(1)
-
 def main(args=None):
     rclpy.init(args=args)
     node = ObjectDetectionNode()
