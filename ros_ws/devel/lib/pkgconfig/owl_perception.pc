@@ -1,8 +1,0 @@
-prefix=/home/aaditya20/OWL_Sorting/ros_ws/devel
-
-Name: owl_perception
-Description: Description of owl_perception
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
