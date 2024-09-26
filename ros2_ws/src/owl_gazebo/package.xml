@@ -8,6 +8,7 @@
   <license>TODO: License declaration</license>
 
   <depend>owl_description</depend>
+  <depend>owl_cv</depend>
   <depend>rclpy</depend>
 
   <test_depend>ament_copyright</test_depend>

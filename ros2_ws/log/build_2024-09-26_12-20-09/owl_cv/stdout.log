@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing owl_cv.egg-info/PKG-INFO
+writing dependency_links to owl_cv.egg-info/dependency_links.txt
+writing entry points to owl_cv.egg-info/entry_points.txt
+writing requirements to owl_cv.egg-info/requires.txt
+writing top-level names to owl_cv.egg-info/top_level.txt
+reading manifest file 'owl_cv.egg-info/SOURCES.txt'
+writing manifest file 'owl_cv.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/vardan/OWL_Sorting/ros2_ws/install/owl_cv/lib/python3.10/site-packages/owl-cv.egg-link (link to .)
+Installing image_processing_node script to /home/vardan/OWL_Sorting/ros2_ws/install/owl_cv/lib/owl_cv
+
+Installed /home/vardan/OWL_Sorting/ros2_ws/build/owl_cv
+running symlink_data

@@ -53,6 +53,13 @@ def generate_launch_description():
                     '-y', '0.0',
                     '-z', '1.07']
     )
+    
+    image_processing_node = Node(
+        package='owl_cv',
+        executable='image_processing_node',
+        name='image_processing_node',
+        output='screen'
+    )
 
     return LaunchDescription([
         declare_use_sim_time,
@@ -60,4 +67,5 @@ def generate_launch_description():
         node_joint_state_publisher,
         spawn_entity,
         gazebo_launcher,
+        image_processing_node
     ])

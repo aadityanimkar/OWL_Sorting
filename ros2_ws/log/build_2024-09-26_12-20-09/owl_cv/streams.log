@@ -1,0 +1,19 @@
+[1.440s] Invoking command in '/home/vardan/OWL_Sorting/ros2_ws/build/owl_cv': PYTHONPATH=/home/vardan/OWL_Sorting/ros2_ws/build/owl_cv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vardan/OWL_Sorting/ros2_ws/install/owl_cv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/vardan/OWL_Sorting/ros2_ws/build/owl_cv/build --no-deps symlink_data
+[1.923s] running develop
+[1.924s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.924s]   warnings.warn(
+[2.233s] running egg_info
+[2.233s] writing owl_cv.egg-info/PKG-INFO
+[2.234s] writing dependency_links to owl_cv.egg-info/dependency_links.txt
+[2.234s] writing entry points to owl_cv.egg-info/entry_points.txt
+[2.234s] writing requirements to owl_cv.egg-info/requires.txt
+[2.235s] writing top-level names to owl_cv.egg-info/top_level.txt
+[2.238s] reading manifest file 'owl_cv.egg-info/SOURCES.txt'
+[2.239s] writing manifest file 'owl_cv.egg-info/SOURCES.txt'
+[2.243s] running build_ext
+[2.243s] Creating /home/vardan/OWL_Sorting/ros2_ws/install/owl_cv/lib/python3.10/site-packages/owl-cv.egg-link (link to .)
+[2.245s] Installing image_processing_node script to /home/vardan/OWL_Sorting/ros2_ws/install/owl_cv/lib/owl_cv
+[2.246s] 
+[2.246s] Installed /home/vardan/OWL_Sorting/ros2_ws/build/owl_cv
+[2.246s] running symlink_data
+[2.324s] Invoked command in '/home/vardan/OWL_Sorting/ros2_ws/build/owl_cv' returned '0': PYTHONPATH=/home/vardan/OWL_Sorting/ros2_ws/build/owl_cv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vardan/OWL_Sorting/ros2_ws/install/owl_cv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/vardan/OWL_Sorting/ros2_ws/build/owl_cv/build --no-deps symlink_data
